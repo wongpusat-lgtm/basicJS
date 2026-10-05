@@ -31,4 +31,4 @@ nilaiRataRata[5] + nilaiRataRata[6] + nilaiRataRata[7] +
 nilaiRataRata[8] + nilaiRataRata[9];
 let jumlahsiswa = 10;
 let rataRata = totalRataRata / jumlahsiswa;
-console.log("Nilai Rata-Rata ICT Lv.X adalah =" + rataRata)
+console.log("Nilai Rata-Rata ICT Lv.X adalah = " + rataRata)
