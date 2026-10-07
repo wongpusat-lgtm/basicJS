@@ -21,7 +21,7 @@
 //     console.log ("Berat kayunya", beratKayu, "KG", "Kayunya berat");
 // }
 
-let menu = "chicken katsu";
+let menu = "mie ayam";
 if (menu == "chicken katsu") {
     console.log ("Menunya adalah " + menu);
     console.log ("kalian makan");
