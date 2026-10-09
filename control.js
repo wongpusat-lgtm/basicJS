@@ -73,9 +73,10 @@
 //     console.log ("Tidak boleh masuk");
 // }
 
-let angka = [10, 15, 20, 25];
-if (angka[3] % 2 === 0) {
-    console.log("Genap");
-} else {
-    console.log("Ganjil");
-}
+// let angka = [10, 15, 20, 25];
+// if (angka[3] % 2 === 0) {
+//     console.log("Genap");
+// } else {
+//     console.log("Ganjil");
+// }
+
