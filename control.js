@@ -21,14 +21,44 @@
 //     console.log ("Berat kayunya", beratKayu, "KG", "Kayunya berat");
 // }
 
-let menu = "mie ayam";
-if (menu == "chicken katsu") {
-    console.log ("Menunya adalah " + menu);
-    console.log ("kalian makan");
-} else if (menu == "telur asin") {
-    console.log ("Menunya adalah " + menu);
-    console.log ("kalian cicipi");
-} else {
-   console.log ("Selain itu, " + menu);
-   console.log ("tidak makan");
-}
+// let alatTulis= "spidol";
+// if (alatTulis == "bolpoint") {
+//     console.log ("Alat tulisnya adalah ", alatTulis);
+//     console.log ("Saya menulis");
+// } else if (alatTulis == "pensil") {
+//     console.log ("Alat tulisnya adalah", alatTulis);
+//     console.log ("Saya menulis");
+// } else if (alatTulis == "crayon") {
+//     console.log ("Alat tulisnya adalah ", alatTulis);
+//     console.log ("Saya menggambar");
+// } else {
+//     console.log ("Selain itu, alat tulis nya", alatTulis);
+//     console.log ("Saya tidak menulis atau gambar");
+// }
+
+// let sayur = "Cabe";
+// if (sayur == "Wortel") {
+//     console.log ("Sayur nya adalah ", sayur);
+//     console.log ("Saya makan");
+// } else if (sayur == "Brokoli") {
+//     console.log ("Sayur nya adalah", sayur);
+//     console.log ("Saya makan");
+// } else {
+//     console.log ("Selain itu, sayur nya", sayur);
+//     console.log ("Saya tidak makan");
+// }
+
+// let nilai = 100;
+// if (nilai >= 90) {
+//     console.log ("Nilainya ", nilai);
+//     console.log ("adalah A");
+// } else if (nilai >= 80) {
+//     console.log ("Nilainya ", nilai);
+//     console.log ("adalah B");
+// } else if (nilai >= 70) {
+//     console.log ("Nilainya ", nilai);
+//     console.log ("adalah C");
+// } else {
+//     console.log ("Selain itu, nilainya ", nilai);
+//     console.log ("adalah D");
+// }
