@@ -80,3 +80,10 @@
 //     console.log("Ganjil");
 // }
 
+// let nama = ["Andi", "Budi", "Citra"];
+// if (nama[2] === "Andi") {
+//     console.log ("Nama ditemukan");
+//     console.log ("Dia adalah ", nama[0]);
+// } else {
+//     console.log ("Tidak ditemukan");
+// }
