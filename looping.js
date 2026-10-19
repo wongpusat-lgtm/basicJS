@@ -13,7 +13,17 @@
 
 // console.log (total);
 
-let nama = ["Dzaki", "Daffa", "Apit", "Atha", "Bima", "Lukman", "Nepnap", "Valen", "Ahnaf", "Adit"];
-for (let i = 0; i < 10; i++) {
-    console.log(`${i + 1}. ${nama[i]}`);
-}
+// let nama = ["Dzaki", "Daffa", "Apit", "Atha", "Bima", "Lukman", "Nepnap", "Valen", "Ahnaf", "Adit"];
+// for (let i = 0; i < 1; i++) {
+//     console.log(`${i + 1}. ${nama[i]}`);
+// }
+
+let nilai = [80, 90, 70, 90, 50, 100, 30, 200, 10];
+for (let i = 0; i < nilai.length; i++) {
+    if (nilai[i] >= 90) {
+        console.log("nilainya", `${nilai[i]} - sangat bagus`);
+    } else if (nilai[i] >= 80) {
+        console.log("nilainya", `${nilai[i]} - bagus`);
+    } else {
+        console.log("nilainya", `${nilai[i]} - cukup`);
+    }
