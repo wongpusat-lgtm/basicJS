@@ -13,7 +13,7 @@
 
 // console.log (total);
 
-// let nama = ["Dzaki", "Daffa", "Apit", "Atha", "Bima", "Lukman", "Nepnap", "Valen", "Ahnaf", "Adit"];
+// let nama = ["Fajar", "Daffa", "Apit", "Nepnap", "Bima", "Lukman", "Nepnap", "Valen", "Ahnaf", "Adit"];
 // for (let i = 0; i < 1; i++) {
 //     console.log(`${i + 1}. ${nama[i]}`);
 // }
