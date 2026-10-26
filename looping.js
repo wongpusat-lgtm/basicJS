@@ -1,8 +1,8 @@
 // console.log("Nama saya Rifat");
 // console.log("Nama saya Rifat");
-// // console.log("Nama saya Rifat");
-// // console.log("Nama saya Rifat");
-// // console.log("Nama saya Rifat");
+// console.log("Nama saya Rifat");
+// console.log("Nama saya Rifat");
+// console.log("Nama saya Rifat");
 
 // let total = 0;
 // for (let i = 10; i <= 20; i++) {
@@ -45,3 +45,28 @@
 //     } 
 // }
 
+// function hitungLuasLingkaran(jariJari) {
+//     let luas = 3.14 * jariJari * jariJari;
+//     return luas;
+// }
+
+// function hitungKelilingLingkaran(jariJari) {
+//     let keliling = 2 * 3.14 * jariJari;
+//     return keliling;
+// }
+
+// let jariJari = 7;
+// let luas = hitungLuasLingkaran(jariJari);
+// let keliling = hitungKelilingLingkaran(jariJari);
+
+// console.log("Luas Lingkaran = " + luas);
+// console.log("Keliling Lingkaran = " + hitungKelilingLingkaran(jariJari));
+
+function hitungVolumeBalok(p, l, t) {
+    let volume = p * l * t;
+    return volume;
+}
+
+let volumeBalok = hitungVolumeBalok(17, 5, 10);
+
+console.log("Volume Balok = " + volumeBalok);
