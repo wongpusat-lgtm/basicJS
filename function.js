@@ -40,18 +40,39 @@
 // console.log("Diskon = " + diskon);
 // console.log("Harga bayar = " + bayar);
 
-function hitungLuasLingkaran(jariJari) {
-    let luas = 3.14 * jariJari * jariJari;
-    return luas;
-}
-function hitungKelilingLingkaran(jariJari) {
-    let keliling = 2 * 3.14 * jariJari;
-    return keliling;
-}
+// function hitungLuasLingkaran(jariJari) {
+//     let luas = 3.14 * jariJari * jariJari;
+//     return luas;
+// }
+// function hitungKelilingLingkaran(jariJari) {
+//     let keliling = 2 * 3.14 * jariJari;
+//     return keliling;
+// }
 
-let jariJari = 7;
-let luas = hitungLuasLingkaran(jariJari);
-let keliling = hitungKelilingLingkaran(jariJari);
+// let jariJari = 7;
+// let luas = hitungLuasLingkaran(jariJari);
+// let keliling = hitungKelilingLingkaran(jariJari);
 
-console.log("Luas Lingkaran = " + luas);
-console.log("Keliling Lingkaran = " + hitungKelilingLingkaran(jariJari));
+// console.log("Luas Lingkaran = " + luas);
+// console.log("Keliling Lingkaran = " + hitungKelilingLingkaran(jariJari));
+
+// function hitungVolumeBalok(p, l, t) {
+//     let volume = p * l * t;
+//     return volume;
+// }
+
+// let volumeBalok = hitungVolumeBalok(17, 5, 10);
+
+// console.log("Volume Balok = " + volumeBalok);
+
+// const tambah2 = (a, b) => {
+//     return a + b;
+// };
+
+// console.log(tambah2(5, 2));
+
+const hitungVolumeBalok = (p, l, t) => {
+    return p * l *t;
+};
+
+console.log(hitungVolumeBalok(17, 5, 10));
