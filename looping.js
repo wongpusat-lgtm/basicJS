@@ -62,11 +62,11 @@
 // console.log("Luas Lingkaran = " + luas);
 // console.log("Keliling Lingkaran = " + hitungKelilingLingkaran(jariJari));
 
-function hitungVolumeBalok(p, l, t) {
-    let volume = p * l * t;
-    return volume;
-}
+// function hitungVolumeBalok(p, l, t) {
+//     let volume = p * l * t;
+//     return volume;
+// }
 
-let volumeBalok = hitungVolumeBalok(17, 5, 10);
+// let volumeBalok = hitungVolumeBalok(17, 5, 10);
 
-console.log("Volume Balok = " + volumeBalok);
+// console.log("Volume Balok = " + volumeBalok);
