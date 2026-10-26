@@ -71,8 +71,21 @@
 
 // console.log(tambah2(5, 2));
 
-const hitungVolumeBalok = (p, l, t) => {
-    return p * l *t;
-};
+// const hitungVolumeBalok = (p, l, t) => {
+//     return p * l *t;
+// };
 
-console.log(hitungVolumeBalok(17, 5, 10));
+// console.log(hitungVolumeBalok(17, 5, 10));
+
+// const hitungTotalBuah = (harga, jumlah) => {
+//      console.log(`Harga Apel perbuah: ${harga}, Jumlah: ${jumlah}`);
+//      return harga * jumlah;
+//  }
+
+//  let total = hitungTotalBuah(5000, 4);
+//  let diskon = 2000;
+//  let bayar = total - diskon;
+
+//  console.log("Diskon = " + diskon);
+//  console.log("Harga bayar = " + bayar);
+
