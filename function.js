@@ -100,10 +100,10 @@
 //     let BeratBadan = 70;
 // }
 
-let Bb = 70;
-function tampilkanBeratBadan() {
-     console.log(Bb);
- }
+// let Bb = 70;
+// function tampilkanBeratBadan() {
+//      console.log(Bb);
+//  }
 
- tampilkanBeratBadan();
- console.log(Bb);
+//  tampilkanBeratBadan();
+//  console.log(Bb);
