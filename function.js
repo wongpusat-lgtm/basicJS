@@ -89,3 +89,21 @@
 //  console.log("Diskon = " + diskon);
 //  console.log("Harga bayar = " + bayar);
 
+// function tampilkanUmur() {
+//     let umur = 17;
+//     console.log(umur);
+// }
+
+// tampilkanUmur();
+
+// function tampilkanBeratBadan() {
+//     let BeratBadan = 70;
+// }
+
+let Bb = 70;
+function tampilkanBeratBadan() {
+     console.log(Bb);
+ }
+
+ tampilkanBeratBadan();
+ console.log(Bb);
