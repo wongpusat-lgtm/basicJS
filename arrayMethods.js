@@ -47,13 +47,55 @@
 // });
 // console.log(nilaiTidaklulus);
 
-const arrayAngka = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
-const angkaGenap = arrayAngka.filter((angka) => {
-    return angka % 2 === 0;
-});
-console.log(angkaGenap);
+// const arrayAngka = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+// const angkaGenap = arrayAngka.filter((angka) => {
+//     return angka % 2 === 0;
+// });
+// console.log(angkaGenap);
 
-const angkaGanjil = arrayAngka.filter((angka) => {
-    return angka % 2 !== 0;
+// const angkaGanjil = arrayAngka.filter((angka) => {
+//     return angka % 2 !== 0;
+// });
+// console.log(angkaGanjil);
+
+// const warTicket = [
+//     {nama: "Konser", harga: 300, dipesan: 200},
+//     {nama: "Seminar", harga: 100, dipesan: 70},
+//     {nama: "Workshop", harga: 80, dipesan: 80}
+// ];
+
+// const sisaTicket = warTicket.filter((ticket) => {
+//     return ticket.jumlah - ticket.dipesan <= 30;
+// });
+// console.log(sisaTicket);
+
+const produk = [
+    { nama: "Mouse", harga: 100000},
+    { nama: "Keyboard", harga: 150000},
+    { nama: "Headset", harga: 200000},
+    { nama: "Flashdisk", harga: 50000},
+    { nama: "Webcam", harga: 250000}
+];
+
+const hargaPromo = produk.map((p) => {
+return {nama: p.nama, harga: p.harga - (p.harga * 0.1)};
 });
-console.log(angkaGanjil);
+console.log(hargaPromo)
+
+const calonAnggota = [
+    { nama: "Andi", nilai: 85,kehadiran: 90 },
+    { nama: "Budi", nilai: 75,kehadiran: 95 },
+    { nama: "Citra", nilai: 90,kehadiran: 85 },
+    { nama: "Dina", nilai: 80,kehadiran: 70 },
+    { nama: "Eko", nilai: 88,kehadiran: 100 },
+    { nama: "Fajar", nilai: 70,kehadiran: 75 }
+];
+
+const anggotaTerpilih = calonAnggota.filter((c) => {
+    return c.nilai >= 80 && c.kehadiran >= 80;
+});
+
+anggotaTerpilih.forEach((c) => {
+    console.log(c.nama);
+});
+console.log(anggotaTerpilih.length);
