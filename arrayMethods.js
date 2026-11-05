@@ -95,7 +95,26 @@ const anggotaTerpilih = calonAnggota.filter((c) => {
     return c.nilai >= 80 && c.kehadiran >= 80;
 });
 
-anggotaTerpilih.forEach((c) => {
-    console.log(c.nama);
+// anggotaTerpilih.forEach((c) => {
+//     console.log(c.nama);
+// });
+// console.log(anggotaTerpilih.length);
+
+const inventaris = [
+    { kode: "PC001", nama: "Komputer 1", kondisi: "Baik" },
+    { kode: "PC002", nama: "Komputer 2", kondisi: "Rusak" },
+    { kode: "PC003", nama: "Komputer 3", kondisi: "Baik" },
+    { kode: "PC004", nama: "Komputer 4", kondisi: "Perbaikan" },
+    { kode: "PC005", nama: "Komputer 5", kondisi: "Baik" }
+];
+
+const hasilCari = inventaris.find((item) => {
+    return item.kode === "PC006";
 });
-console.log(anggotaTerpilih.length);
+
+if (hasilCari) {
+    console.log("Nama perangkat: " + hasilCari.nama);
+    console.log("Kondisi: " + hasilCari.kondisi);
+} else {
+    console.log("Perangkat tidak ditemukan");
+}
