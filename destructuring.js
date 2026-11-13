@@ -24,13 +24,13 @@
 // const [merek1, merek2, merek3, merek4, merek5] = merekLaptop;
 // console.log (merek1);
 
-const siswaBaru = [
-    { nama: "Andi", nilai: 80, umur: 16, kelas: 8 },
-    { nama: "Budi", nilai: 65, umur: 15, kelas: 8 },
-    { nama: "Citra", nilai: 90, umur: 16, kelas: 7 },
-    { nama: "Dina", nilai: 70, umur: 17, kelas: 9 },
-    { nama: "Eko", nilai: 85, umur: 18, kelas: 10 }
-];
+// const siswaBaru = [
+//     { nama: "Andi", nilai: 80, umur: 16, kelas: 8 },
+//     { nama: "Budi", nilai: 65, umur: 15, kelas: 8 },
+//     { nama: "Citra", nilai: 90, umur: 16, kelas: 7 },
+//     { nama: "Dina", nilai: 70, umur: 17, kelas: 9 },
+//     { nama: "Eko", nilai: 85, umur: 18, kelas: 10 }
+// ];
 
 // siswaBaru.forEach(({nama, nilai, umur, kelas}) => {
 //     console.log("nama: " + nama, "nilai: " + nilai, "umur: " + umur, "kelas: " + kelas)
