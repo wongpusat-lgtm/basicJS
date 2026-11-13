@@ -32,6 +32,8 @@ const siswa = {
     nilai: 85
 };
 
-console.log(`Nama: ${siswa.nama}
+console.log(`
+Nama: ${siswa.nama}
 Kelas: ${siswa.kelas}
-Nilai: ${siswa.nilai}`);
+Nilai: ${siswa.nilai}
+`);
