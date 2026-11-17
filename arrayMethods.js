@@ -69,52 +69,52 @@
 // });
 // console.log(sisaTicket);
 
-const produk = [
-    { nama: "Mouse", harga: 100000},
-    { nama: "Keyboard", harga: 150000},
-    { nama: "Headset", harga: 200000},
-    { nama: "Flashdisk", harga: 50000},
-    { nama: "Webcam", harga: 250000}
-];
+// const produk = [
+//     { nama: "Mouse", harga: 100000},
+//     { nama: "Keyboard", harga: 150000},
+//     { nama: "Headset", harga: 200000},
+//     { nama: "Flashdisk", harga: 50000},
+//     { nama: "Webcam", harga: 250000}
+// ];
 
-const hargaPromo = produk.map((p) => {
-return {nama: p.nama, harga: p.harga - (p.harga * 0.1)};
-});
-console.log(hargaPromo)
+// const hargaPromo = produk.map((p) => {
+// return {nama: p.nama, harga: p.harga - (p.harga * 0.1)};
+// });
+// console.log(hargaPromo)
 
-const calonAnggota = [
-    { nama: "Andi", nilai: 85,kehadiran: 90 },
-    { nama: "Budi", nilai: 75,kehadiran: 95 },
-    { nama: "Citra", nilai: 90,kehadiran: 85 },
-    { nama: "Dina", nilai: 80,kehadiran: 70 },
-    { nama: "Eko", nilai: 88,kehadiran: 100 },
-    { nama: "Fajar", nilai: 70,kehadiran: 75 }
-];
+// const calonAnggota = [
+//     { nama: "Andi", nilai: 85,kehadiran: 90 },
+//     { nama: "Budi", nilai: 75,kehadiran: 95 },
+//     { nama: "Citra", nilai: 90,kehadiran: 85 },
+//     { nama: "Dina", nilai: 80,kehadiran: 70 },
+//     { nama: "Eko", nilai: 88,kehadiran: 100 },
+//     { nama: "Fajar", nilai: 70,kehadiran: 75 }
+// ];
 
-const anggotaTerpilih = calonAnggota.filter((c) => {
-    return c.nilai >= 80 && c.kehadiran >= 80;
-});
+// const anggotaTerpilih = calonAnggota.filter((c) => {
+//     return c.nilai >= 80 && c.kehadiran >= 80;
+// });
 
 // anggotaTerpilih.forEach((c) => {
 //     console.log(c.nama);
 // });
 // console.log(anggotaTerpilih.length);
 
-const inventaris = [
-    { kode: "PC001", nama: "Komputer 1", kondisi: "Baik" },
-    { kode: "PC002", nama: "Komputer 2", kondisi: "Rusak" },
-    { kode: "PC003", nama: "Komputer 3", kondisi: "Baik" },
-    { kode: "PC004", nama: "Komputer 4", kondisi: "Perbaikan" },
-    { kode: "PC005", nama: "Komputer 5", kondisi: "Baik" }
-];
+// const inventaris = [
+//     { kode: "PC001", nama: "Komputer 1", kondisi: "Baik" },
+//     { kode: "PC002", nama: "Komputer 2", kondisi: "Rusak" },
+//     { kode: "PC003", nama: "Komputer 3", kondisi: "Baik" },
+//     { kode: "PC004", nama: "Komputer 4", kondisi: "Perbaikan" },
+//     { kode: "PC005", nama: "Komputer 5", kondisi: "Baik" }
+// ];
 
-const hasilCari = inventaris.find((item) => {
-    return item.kode === "PC002";
-});
+// const hasilCari = inventaris.find((item) => {
+//     return item.kode === "PC002";
+// });
 
-if (hasilCari) {
-    console.log("Nama perangkat: " + hasilCari.nama);
-    console.log("Kondisi: " + hasilCari.kondisi);
-} else {
-    console.log("Perangkat tidak ditemukan");
-}
+// if (hasilCari) {
+//     console.log("Nama perangkat: " + hasilCari.nama);
+//     console.log("Kondisi: " + hasilCari.kondisi);
+// } else {
+//     console.log("Perangkat tidak ditemukan");
+// }
