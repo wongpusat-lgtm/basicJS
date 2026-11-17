@@ -100,21 +100,21 @@
 // });
 // console.log(anggotaTerpilih.length);
 
-// const inventaris = [
-//     { kode: "PC001", nama: "Komputer 1", kondisi: "Baik" },
-//     { kode: "PC002", nama: "Komputer 2", kondisi: "Rusak" },
-//     { kode: "PC003", nama: "Komputer 3", kondisi: "Baik" },
-//     { kode: "PC004", nama: "Komputer 4", kondisi: "Perbaikan" },
-//     { kode: "PC005", nama: "Komputer 5", kondisi: "Baik" }
-// ];
+const inventaris = [
+    { kode: "PC001", nama: "Komputer 1", kondisi: "Baik" },
+    { kode: "PC002", nama: "Komputer 2", kondisi: "Rusak" },
+    { kode: "PC003", nama: "Komputer 3", kondisi: "Baik" },
+    { kode: "PC004", nama: "Komputer 4", kondisi: "Perbaikan" },
+    { kode: "PC005", nama: "Komputer 5", kondisi: "Baik" }
+];
 
-// const hasilCari = inventaris.find((item) => {
-//     return item.kode === "PC002";
-// });
+const hasilCari = inventaris.find((item) => {
+    return item.kode === "PC002";
+});
 
-// if (hasilCari) {
-//     console.log("Nama perangkat: " + hasilCari.nama);
-//     console.log("Kondisi: " + hasilCari.kondisi);
-// } else {
-//     console.log("Perangkat tidak ditemukan");
-// }
+if (hasilCari) {
+    console.log("Nama perangkat: " + hasilCari.nama);
+    console.log("Kondisi: " + hasilCari.kondisi);
+} else {
+    console.log("Perangkat tidak ditemukan");
+}
