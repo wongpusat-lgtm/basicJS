@@ -120,21 +120,77 @@
 
 // LATIHAN SOAL 1
 // const siswa = {
-//     nama: " aNdI",
+//     nama: "aNdI",
 //     kelas: "x ict",
-//     email: " ANDI@GMAIL.COM"
+//     email: " ANDI@GMAIL.COM "
 // };
+// const {nama, kelas, email} = siswa;
+// const namaBaru = nama.trim().toUpperCase();
+// const kelasBaru = kelas.trim().toUpperCase();
+// const emailBaru = email.trim().toLowerCase();
 
-// console.log()
-
+// console.log("Name:", namaBaru);
+// console.log("Class:", kelasBaru);
+// console.log("Email:", emailBaru);
 
 // LATIHAN SOAL 2
-const siswa = [
-    { nama: "Andi", email: "andi@gmail.com", umur: 17 },
-    { nama: "Budi", email: "budi@gmail.com", umur: 17 },
-    { nama: "Citra", email: "citra@gmail.com", umur: 17 }
+// const siswa = [
+//     { nama: "Andi", email: "andi@gmail.com", umur: 17 },
+//     { nama: "Budi", email: "budi@gmail.com", umur: 17 },
+//     { nama: "Citra", email: "citra@gmail.com", umur: 17 }
+// ];
+// const siswaBaru = siswa.filter((siswaa) =>  {
+//     const endsWith = siswaa.email.trim().toLocaleLowerCase().endsWith("@gmail.com");
+//     return endsWith;
+// })
+// .map((siswaa) => {
+//     return {
+//        nama: siswaa.nama,
+//        email: siswaa.email
+//     };
+//   });
+
+// console.log(siswaBaru);
+
+// const sa = [
+//     { nama: "Dzaki", umur: 26 },
+//     { nama: "Zulfi", umur: 21 },
+//     { nama: "Fahry", umur: 24 },
+// ];
+
+// console.log(sa[0].nama, sa[2].umur);
+
+const barang = [
+    {
+        kode: " KB-001 ",
+        nama: " Keyboard mechanical ",
+        harga: 450000
+    },
+    {
+        kode: " MS-002 ",
+        nama: " Mouse gaming ",
+        harga: 250000
+    },
+    {
+        kode: " HS-003 ",
+        nama: " Headset ",
+        harga: 350000
+    },
+    {
+        kode: " WC-004 ",
+        nama: " Webcam ",
+        harga: 300000
+    }
 ];
 
-const sisaTicket = warTicket.filter((ticket) => {
-    return ticket.jumlah - ticket.dipesan <= 30;
-});
+let dis = 0.1
+let beli = 7
+let  i = 1
+
+let maxPrint=1
+if (beli >= 5){
+    for (x=0; x<maxPrint; x++){
+        barang[i].harga = barang[i].harga * pem* dis
+        console.log(barang[i])
+    }
+};
